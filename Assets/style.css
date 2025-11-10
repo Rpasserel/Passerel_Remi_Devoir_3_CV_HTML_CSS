@@ -1,1 +1,232 @@
 @import url(fonts.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.page {
+    max-width: 1160px;
+}
+header, footer {
+    background-color: #17abb3;
+}
+main {
+    display: flex;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+}
+h1, h2 {
+    color: white;
+}
+h3 {
+    color: #17abb3;
+}
+h1, h2, h3 {
+    font-family: "Lato";
+}
+p, li, a {
+    font-family: "Raleway", sans-serif;
+}
+.header-cadre-pp {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    
+}
+.photo-de-profil {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border:5px solid white;
+}
+.header-information {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+}
+.header-title {
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+.header-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 350px;
+    text-align: center;
+}
+.header-contact img {
+    width: 20px;
+    height: 20px;
+}
+.header-contact a {
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+.header-contact p {
+    display: inline-block;
+    margin: 0;
+    font-size: small;
+    color: white;
+}
+.skills {
+    background-color: #ffffff;
+    width: 300px;
+}
+.skills h3 {
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.skills img {
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+.skills-type {
+    font-weight: bold;
+    font-size: 15px;
+}
+.informatic-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+.informatic-skills-level {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.language-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    padding: 0px 50px;
+}
+.language-skills-level {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.language-skills-level-schedule {
+    font-size: 13px;
+}
+.traits {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    padding: 0px 50px;
+}
+ul {
+    list-style: square;
+}
+li::marker {
+    color: #17abb3;
+}
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    padding: 0px 50px;
+}
+.about {
+    width: 860px;
+}
+.about-me, .degree, .stages, .experiences {
+    margin: 30px;
+}
+.about h3 {
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.about-me p {
+    text-align: justify;
+    text-indent: 2em;
+}
+.degree-information {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.degree-information p {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.degree-information time {
+    color: #17abb3;
+}
+.small {
+    font-size: small;
+    font-style: italic;
+    margin: 0px;
+}
+.stages-information {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stages-information p {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.stages-information time {
+    color: #17abb3;
+}
+.experiences-information {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.experiences-information p {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.experiences-information time {
+    color: #17abb3;
+}
+
+.social-network img {
+    width: 30px;
+    height: 30px;
+}
