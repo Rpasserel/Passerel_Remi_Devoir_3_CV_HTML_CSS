@@ -1,10 +1,12 @@
 @import url(fonts.css);
 
+
+/* paramètres de base de la page web */
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f5f5f5;
+    background-color: #e3e3e3;
 }
 .page {
     max-width: 1160px;
@@ -30,7 +32,7 @@ footer {
     gap: 10px;
 }
 h1, h2 {
-    color: white;
+    color: #ffffff;
 }
 h3 {
     color: #17abb3;
@@ -41,14 +43,12 @@ h1, h2, h3 {
 p, li, a {
     font-family: "Raleway", sans-serif;
 }
+
+/* positionnement du bandeau de tête */
 .header-cadre-pp {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     align-self: center;
     width: 150px;
     height: 150px;
-    
 }
 .photo-de-profil {
     width: 100%;
@@ -56,7 +56,7 @@ p, li, a {
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
-    border:5px solid white;
+    border:5px solid #ffffff;
 }
 .header-information {
     display: flex;
@@ -84,16 +84,17 @@ p, li, a {
 .header-contact a {
     font-size: small;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 .header-contact p {
     display: inline-block;
     margin: 0;
     font-size: small;
-    color: white;
+    color: #ffffff;
 }
+/* positionnement et changement graphique de la partie compétences */
 .skills {
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     width: 300px;
 }
 .skills h3 {
@@ -163,8 +164,11 @@ li::marker {
     width: 200px;
     padding: 0px 50px;
 }
+
+/* positionnement et changement graphique de la partie informations personnelles */
 .about {
     width: 860px;
+    background-color: #ffffff;
 }
 .about-me, .degree, .stages, .experiences {
     margin: 30px;
@@ -230,3 +234,20 @@ li::marker {
     width: 30px;
     height: 30px;
 }
+footer {
+    color: #ffffff;
+}
+
+/* effets de style  */
+.about-hover:hover {
+    background-color: #f5f5f5;
+    border-left: 5px solid #17abb3;
+}
+.photo-de-profil:hover {
+    cursor: zoom-in;
+    transform: scale(1.2);
+}
+.social-network img:hover {
+    opacity: 0.5;
+}
+
